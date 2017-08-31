@@ -20,7 +20,7 @@ git clone https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/
 cd tutorial_iarc
 git branch -r #查看远程所有分支
 git checkout -b 本地分支名 origin/远程分支名-你的分支名
-mv task_submit/example_your_name your_name #改成你自己的名字(命名格式：英文+中文，如 jackie肖鉴津)
+mv task_submit/example_your_name your_name #改成你自己的名字(命名格式：英文+中文，如 jackie肖xx)
 ```
 
 # 推荐资料
@@ -97,32 +97,19 @@ mv task_submit/example_your_name your_name #改成你自己的名字(命名格�
 
 # 后四周分流任务
 第四周开始我们将按照各个队员的兴趣分流到各个组别之中，若对分流任务有问题，请联系各组组长。
-
-[定位组分流任务](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/group_task/positioning_group.md)  
-[导航组分流任务](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/group_task/navigation_group.md)  
-[策略组分流任务](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/group_task/strategy_group.md)  
-[图像识别组分流任务](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/group_task/vision_group.md)  
+见group_task/文件夹
 
 ## 组别介绍
 
 导航组  
-组长：吴侃  
 导航组，利用人工势场法等主动避障算法实现无人机对运动的地面机器人的跟踪，同时避开运动的障碍物，并在指定地点降落。你需要熟练C++、linux平台下的编程。你将掌握无人机控制框架，跟踪、降落、避障算法，学会整合各个项目（makefile修改）、编译第三方库等。  
 
 定位组  
-组长：赖子良  
 定位组致力于通过视觉信息及惯性信息实现无人机在没有GPS的情况下的室内定位，这是一个致力于与玄学对抗的小组，专治传感器以及硬件的玄学问题。你将积累大量的玄学处理经验和图像处理技巧。  
 
 图像识别组  
-组长：邓文钧  
 图像识别组主要负责对地面机器人的识别，跟踪以及状态估计。你需要熟练使用C++，有阅读SDK文档能力。你将掌握在linux下编译，运行及调试程序、根据算法原理写程序的能力。  
 
 策略组  
-组长：肖鉴津  
 策略组顾名思义主要负责比赛策略的研究和测试，最大化比赛分数。你需要有良好的C++编程基础，熟悉飞行器的整体架构，善于在原有方案上创新改进。你将学习到机器学习的相关知识，优化比赛策略。  
 
-# 挑战任务
-挑战任务只推荐基础良好，成绩优异，擅长机器学习或数学建模的同学参加，详见(https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/challenge_task.md)
-
-# 激励机制
-我们会根据暑期表现挑选两名优秀的候选队员到北京观赛，到北京的差旅费（包含来回火车票，住宿费）按照学校的报销制度予以报销，参与评选的基准是于8月18前提前完成所有的任务，若有多个队员提前完成所有任务，则根据完成任务的质量，该队员在暑假期间技术能力的进步程度，参与积极性，gitlab提交记录等（由组长们共同评定）优中选优。加油！
