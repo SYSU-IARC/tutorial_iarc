@@ -9,19 +9,6 @@
 6. 对于暑假留校的同学，我们每周六会在实验室D301进行指导/答疑/解决疑难问题，你们可以在这个时间来实验室寻求正式队员的帮助。你们若有问题可以通过Issue的方式来提问，如果有推荐的学习资料可以merge request来补充。对于暑假不在学校的同学，我们建议你在Gitlab上和群上保持活跃。
 7. 请多通过issue的方式来发起正式的讨论，尽量减少使用Q群发问，多尝试通过google获得解答。
 
-## 任务成果提交方式
-
-每周任务请提交自己的代码到gitlab你自己的分支上,任务完成的质量将作为我们考核的参考标准之一
-你们在gitlab sysuiarc-tutorial团队中的权限为developer，即可以修改子分支，但不可以创建子分支，也不能修改主分支master。
-具体方式：
-
-```
-git clone https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/
-cd tutorial_iarc
-git branch -r #查看远程所有分支
-git checkout -b 本地分支名 origin/远程分支名-你的分支名
-mv task_submit/example_your_name your_name #改成你自己的名字(命名格式：英文+中文，如 jackie肖xx)
-```
 
 # 推荐资料
 
@@ -29,7 +16,7 @@ mv task_submit/example_your_name your_name #改成你自己的名字(命名格�
 
 - [程序员的自我修养（1-4章，其余选读）](https://leohxj.gitbooks.io/a-programmer-prepares/content/) 可能需要翻墙阅读
 - [团队编程规范](https://shimo.im/doc/rfK9ome7WLEZ0xrA/)
-- [团队技术文档](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/technical_report.pdf)
+- [团队技术文档](https://github.com/SYSU-IARC/tutorial_iarc/blob/master/technical_report.pdf)
 
 其他资料推荐
 
@@ -67,15 +54,15 @@ mv task_submit/example_your_name your_name #改成你自己的名字(命名格�
 选修内容：
 
 1. Vim （或者Emacs）Vim 是一款强大的文本编辑器，我们强烈建议你熟练地掌握Vim（或Emacs），这将有助于你提升编程的效率。
-2. 飞行操控。（队伍会提供玩具无人机，如果你暑假在学校的话可以来实验室拿飞行器去训练。训练飞行器操控技巧的一个重要目的在于——避免损失贵重的无人机——无人机在调试&&实际飞行时可能遇到意外情况或者失控，如果没有良好的飞行器操控技巧我们不会冒险让你使用无人机）详情请参见[队伍飞行操控教程](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/tutorial.md)
+2. 飞行操控。（队伍会提供玩具无人机，如果你暑假在学校的话可以来实验室拿飞行器去训练。训练飞行器操控技巧的一个重要目的在于——避免损失贵重的无人机——无人机在调试&&实际飞行时可能遇到意外情况或者失控，如果没有良好的飞行器操控技巧我们不会冒险让你使用无人机）详情请参见[队伍飞行操控教程](https://github.com/SYSU-IARC/tutorial_iarc/blob/master/tutorial.md)
 3. 习惯阅读英文文档以及官方Document。
 
 本周任务：
 
-1. 编写一个多文件的C++程序，阅读《中大空中机器人团队代码规范》，用opencv写一个多线程的录像工具，在录像的同时处理用户输入（开始，暂停，停止录制）[具体要求](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/opencv_exercise.md)；所有代码的命名以及架构必须按照《团队代码规范》来进行；
+1. 编写一个多文件的C++程序，阅读《中大空中机器人团队代码规范》，用opencv写一个多线程的录像工具，在录像的同时处理用户输入（开始，暂停，停止录制）[具体要求](https://github.com/SYSU-IARC/tutorial_iarc/blob/master/opencv_exercise.md)；所有代码的命名以及架构必须按照《团队代码规范》来进行；
 2. 为[1]写一个makefile文件并编译运行通过； 
 3. 用git上传到gitlab上，并使用markdown按照《团队代码规范》写一份README.md；
-4. [Shell习题](https://gitlab.com/SYSU-IARC-TUTORIAL/tutorial_iarc/blob/master/shell_exercise.md)  可参考[菜鸟教程](http://www.runoob.com/linux/linux-shell.html)，掌握基础命令即可
+4. [Shell习题](https://github.com/SYSU-IARC/tutorial_iarc/blob/master/shell_exercise.md)  可参考[菜鸟教程](http://www.runoob.com/linux/linux-shell.html)，掌握基础命令即可
 
 
 ## 第三周（7.24-7.30）
